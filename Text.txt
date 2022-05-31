@@ -1,0 +1,32 @@
+Lesson 1 Grid
+Grid System = 12 Units
+Large scale     lg 
+/medium scale   md 
+small scall     sm 
+Extra small     xs 
+
+when we don't specify for all screen:
+medium sets medium and Large
+small sets small, medium and large .. etc
+
+To hide/show div in certin sizes:    hidden-md, hidden-lg, ..etc
+                                     visible-md visible-lg, ...etc
+
+using class="clearfix"    // to clear float
+
+we can set offset the same ways as in a class to take percentage of grid:
+col-lg-offset-3:    // blank in third of the space in lg screen as in 12/3 = 4 = 25% margin
+
+col-lg-3-push:  push to after third
+col-lg-3lpull:  pull till the third
+
+class="img-responsive-center-block": sets the image size to grid size
+class="lead" : for paraghraph
+-----------------------------------------
+Lesson 2 Navbar Component:
+navbar-inverse: to reverse color
+navbar-fixed:   fix at top when scrolling
+* always set padding:70px for body
+-------------------------------------
+row class automatically give margin (-15) left and right so we have to set device size or it sticks to screen sides
+--------------------------------------
